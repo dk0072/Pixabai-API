@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240sp"
+            android:scaleType="centerCrop"
+            android:id="@+id/imageview"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/like"
+            android:text="Likes : "
+            android:textStyle="bold"
+            android:layout_marginTop="250sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/download"
+            android:text="Downloads : "
+            android:layout_marginStart="100sp"
+            android:textStyle="bold"
+            android:layout_marginTop="250sp"/>
+
+        <ImageView
+            android:layout_width="25sp"
+            android:layout_height="25sp"
+            android:src="@drawable/unliked_icon"
+            android:layout_marginTop="245sp"
+            android:layout_marginStart="280sp"
+            android:id="@+id/loved"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>
